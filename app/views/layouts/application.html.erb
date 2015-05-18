@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Helpout</title>
-      <link href="assets/stylesheets/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="assets/stylesheets/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <link href="/assets/stylesheets/materialize.css.scss" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="/assets/stylesheets/style.css.scss" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>  
@@ -17,12 +17,11 @@
  
 <%= yield %>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="/assets/javascripts/materialize.js"></script>
+  <script src="/assets/javascripts/init.js"></script>
 
 </body>
 <footer>
-	  <!--  Scripts-->
 
 </footer>
 </html>
